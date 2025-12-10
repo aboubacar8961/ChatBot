@@ -87,7 +87,7 @@ nav a:first-of-type {
 <script setup>
 import Navbar from '@/components/Navbar.vue'
 import FloatBtn from '@/components/FloatBtn.vue'
-import ChatModal from '@/components/chatModal.vue'
+import ChatModal from '@/components/ChatModal.vue'
 </script>
 
 <template>
