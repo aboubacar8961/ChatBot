@@ -23,3 +23,11 @@
     opacity: 1;
   }
 }
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ff9306;
+  color: #ffffff;
+}  

@@ -1,4 +1,21 @@
-/* @tailwind base;
+@tailwind base;
 @tailwind components;
-@tailwind utilities; */
+@tailwind utilities;
 
+/* Brand tokens */
+:root{
+  --brand-orange: #ff6a00;
+  --brand-orange-dark: #e05500;
+  --brand-black: #0b0b0b;
+  --brand-white: #ffffff;
+}
+
+/* base tweaks */
+html,body,#app { height: 100% }
+body { background-color: #fafaf9; color: var(--brand-black); font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+
+/* small helper */
+.btn-primary {
+  @apply inline-flex items-center justify-center px-4 py-2 rounded-md text-white font-medium shadow-sm;
+  background: linear-gradient(90deg, var(--brand-orange), var(--brand-orange-dark));
+}

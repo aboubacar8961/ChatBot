@@ -1,24 +1,46 @@
+
+//   "type": "module",
+//   "engines": {
+//     "node": "^20.19.0 || >=22.12.0"
+//   },
+//   "scripts": {
+//     "dev": "vite",
+//     "build": "vite build",
+//     "preview": "vite preview"
+//   },
+//   "dependencies": {
+//     "pinia": "^3.0.4",
+//     "vue": "^3.5.25",
+//     "vue-router": "^4.6.3"
+//   },
+//   "devDependencies": {
+//     "@vitejs/plugin-vue": "^6.0.2",
+//     "vite": "^7.2.4",
+//     "vite-plugin-vue-devtools": "^8.0.5"
+//   }
+// }
+
 {
-  "name": "odc-bot",
-  "version": "0.0.0",
+  "name": "orange-odc-assistant",
+  "version": "1.0.0",
   "private": true,
-  "type": "module",
-  "engines": {
-    "node": "^20.19.0 || >=22.12.0"
-  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "pinia": "^3.0.4",
-    "vue": "^3.5.25",
-    "vue-router": "^4.6.3"
+    "vue": "^3.3.6",
+    "vue-router": "^4.2.2",
+    "pinia": "^2.1.3"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^6.0.2",
-    "vite": "^7.2.4",
-    "vite-plugin-vue-devtools": "^8.0.5"
+    "vite": "^5.2.0",
+    "@vitejs/plugin-vue": "^5.1.1",
+    "vite-plugin-vue-devtools": "^1.9.0",
+    "@tailwindcss/vite": "^0.2.0",
+    "tailwindcss": "^3.5.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24"
   }
 }
